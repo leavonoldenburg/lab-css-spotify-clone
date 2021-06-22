@@ -108,7 +108,7 @@ section:nth-child(2) img {
 
 #use {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   width: 1200px;
   padding: 80px 50px 0px 50px;
@@ -123,14 +123,14 @@ section:nth-child(3) {
   color: #fff;
   margin: auto;
   width: 1350px;
-  padding: 50px 0 0 0;
+  padding: 50px 0;
 }
 
 section:nth-child(3) h2 {
   border-bottom: 5px solid #fff;
   padding-top: 30px;
   width: fit-content;
-  margin: 0 100px;
+  margin: 0 120px;
   line-height: 1.5em;
   font-size: 40px;
 }
@@ -140,7 +140,7 @@ section:nth-child(3) h3 {
   width: fit-content;
   line-height: 1.5em;
   font-size: 30px;
-  padding-left: 50px;
+  padding-left: -50px;
 }
 
 section:nth-child(3) p {
@@ -149,13 +149,12 @@ section:nth-child(3) p {
   font-size: 22px;
   font-weight: 300;
   letter-spacing: 0.5px;
-  padding-left: 50px;
 }
 
 #icon {
   width: 130px;
   height: 130px;
-  padding: 300px 0;
+  padding: 200px 0;
 }
 
 #app {
