@@ -6,3 +6,159 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@200;400;500;600&display=swap');
+
+body {
+  font-family: Lato;
+}
+
+nav {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  vertical-align: baseline;
+  background-color: #fff;
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+nav img {
+  width: 200px;
+  height: 60px;
+  padding-left: 30px;
+}
+
+div ul {
+  list-style: none;
+  padding-right: 30px;
+}
+
+ul li {
+  font-size: 20px;
+  font-weight: 300;
+  display: inline;
+  text-decoration: none;
+  padding: 0 13px;
+}
+
+header section {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 800px;
+  padding-top: 40px;
+  text-align: center center;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 200px;
+  font-size: 80px;
+}
+
+section > p {
+  text-align: center;
+  font-size: 31px;
+  font-weight: 300;
+  line-height: 1.5em;
+  margin-top: -30px;
+}
+
+section:nth-child(2) h2 {
+  border-bottom: 5px solid #00b172;
+  padding-top: 30px;
+  width: fit-content;
+  margin: auto;
+  line-height: 1.5em;
+  font-size: 40px;
+}
+
+section:nth-child(2) img {
+  width: 130px;
+}
+
+#whatisspotify {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-bottom: 40px;
+}
+
+.about {
+  width: 270px;
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about h3 {
+  color: #00b172;
+  font-size: 30px;
+}
+
+.about p {
+  font-size: 25px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+#use {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1200px;
+  padding: 80px 50px 0px 50px;
+}
+
+.howtouseit {
+  width: 300px;
+}
+
+section:nth-child(3) {
+  background-color: #00b172;
+  color: #fff;
+  margin: auto;
+  width: 1350px;
+  padding: 50px 0 0 0;
+}
+
+section:nth-child(3) h2 {
+  border-bottom: 5px solid #fff;
+  padding-top: 30px;
+  width: fit-content;
+  margin: 0 100px;
+  line-height: 1.5em;
+  font-size: 40px;
+}
+
+section:nth-child(3) h3 {
+  padding-top: 10px;
+  width: fit-content;
+  line-height: 1.5em;
+  font-size: 30px;
+  padding-left: 50px;
+}
+
+section:nth-child(3) p {
+  width: 330px;
+  line-height: 1.5em;
+  font-size: 22px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  padding-left: 50px;
+}
+
+#icon {
+  width: 130px;
+  height: 130px;
+  padding: 300px 0;
+}
+
+#app {
+  width: 350px;
+  height: 600px;
+}
